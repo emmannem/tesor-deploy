@@ -19,7 +19,7 @@ jobs:
     - name: install unzip 
       run: sudo apt-get install unzip
     - name: Download model
-      run: wget -O catdog-model.zip https://firebasestorage.googleapis.com/v0/b/my-cv-16687.appspot.com/o/catdog-model.zip?alt=media&token=69fc6855-fc2d-4422-bf9f-d1d90462f0df
+      run: wget -O catdog-model.zip 'https://firebasestorage.googleapis.com/v0/b/my-cv-16687.appspot.com/o/catdog-model.zip?alt=media&token=69fc6855-fc2d-4422-bf9f-d1d90462f0df'
     - name: extract model
       run: unzip catdog-model.zip
     - name: show dir
